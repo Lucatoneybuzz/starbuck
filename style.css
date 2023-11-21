@@ -1,0 +1,89 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: whitesmoke;
+    border-bottom: 4px solid whitesmoke;
+    height: 55px;
+}
+.logo {
+    height: 35px;
+    margin: 7px 0 0 20px;
+}
+ul {
+    display: flex;
+    margin: -30px 0 0 40px;
+}
+li {
+    list-style: none;
+    padding: 0 9px;
+    font-weight: 900;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.find {
+    display: flex;
+    float: right;
+    margin: -20px 45px 0 0;
+}
+span {
+    display: flex;
+}
+span img {
+    height: 18px;
+    width: 18px;
+}
+div span h5 {
+    margin: 5px 18px 0 0;
+    font-size: 11px;
+}
+div button {
+    margin: 0.8px;
+}
+div .but1 {
+    background-color: rgba(255,255,255,0);
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 20px;
+    font-size: 10px;
+}
+div .but2 {
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 20px;
+    font-size: 10px;
+    color: #fff;
+}
+.banner {
+    background-image: url(starbu.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 90vh;
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    color: whitesmoke;
+}
+.main-title {
+    margin: 170px 110px 0 0;
+    font-size: 35px;
+}
+.sub-title {
+    margin: 10px 120px 0 0;
+    font-size: 14px;
+    line-height: 20px;
+}
+.but3 {
+    margin: 15px 0 0 50px;
+    color: #fff;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 150px;
+}
